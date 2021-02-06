@@ -12,9 +12,7 @@ def click():
     no_pics=int(request.form['pics'])
     video=cv2.VideoCapture(0)
     while True:
-        time.sleep(3)
         ret,frame=video.read()
-        time.sleep(3)
         if ret==True:
             if not os.path.exists("images"):
                 os.makedirs("images")
