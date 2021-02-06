@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="{{url_for('click')}}" method="POST">
+    
+   
+    <div class="clicker">
+        <label>OpenCV+Flask</label>
+        <h1>PhotoClicker</h1>
+<div id="numbers">
+<label>Enter the number of Pictures</label>
+<input class="num" type="number" name="pics">
+<br><br><br>
+<button class="sub" id="submit_button" type="submit" >Submit</button>
+</div>
+    </div>
+</form>
+</body>
+<style>
+body{
+    background-color: rgb(39, 146, 146);
+}
+label{
+    font-size: 43px;
+}
+input{
+    position: relative;
+    left:23px;
+background-color: transparent;
+}
+h1{
+    text-align: center;
+}
+.clicker{
+border-style: solid;
+margin: 23px;
+padding: 98px;
+text-align: center;
+
+}
+button{
+ 
+    width: 123px;
+    height: 34px;
+    background-color: aqua;
+}
+#numbers{
+    border-style: solid;
+    padding:90px;
+    text-align: center;
+}  
+</style>
+    
+</script>
+</html>
